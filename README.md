@@ -1,4 +1,4 @@
-# [Layihənin linki](https://isgandarhasilov.github.io/)
+# [Layihənin linki(Desktop version)](https://isgandarhasilov.github.io/)
 [My_Template](https://lmpixels.com/demo/sunshine-demo/sunshine-version-1/sunshine-v1-html-template-green-cyan/index.html#contact)
 # Layihə haqqında qısa məlumat...
 ## Bu layihə şəxsi portfolio-cv-resume tipində bir layihədir.
