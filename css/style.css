@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  width: 100wv;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+/*# sourceMappingURL=style.css.map */
