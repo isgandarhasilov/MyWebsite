@@ -18,15 +18,12 @@
 
 <body>
     <img src="img/home-slider.gif" alt="Under Construction"><br>
-    <audio id="audio" controls autoplay="true" hidden="hidden">
-        <source src="music/music.mp3" type="audio/mpeg">
-    </audio>
+    <audio id="audio" style="display:none;" src="music/myMusic.mp3" controls autoplay loop onloadeddata="setHalfVolume()">
     <script>
-        function setDefaultVolume() {
-            var myAudio = document.getElementById("audio");
-            myAudio.volume = 0.4;
-        }
-        setDefaultVolume()
+            function setHalfVolume() {
+                var myAudio = document.getElementById("audio");
+                myAudio.volume = 0.4;
+            }
     </script>
 </body>
 
