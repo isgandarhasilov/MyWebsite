@@ -1,8 +1,17 @@
 body {
   height: 100vh;
   width: 100wv;
+  ovzerflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  color: white;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+
+body img {
+  width: 500px;
+  height: 250px;
 }
