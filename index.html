@@ -17,19 +17,42 @@
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>Document</title>
     <style>
-        body {
-            height: 100vh;
-            width: 100wv;
+        img {
+            height: 40vh;
+            width: 40wv;
             overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 0 auto;
         }
     </style>
 </head>
 
 <body>
     <img src="img/construction.gif" alt="Under Construction"><br>
+    <div>
+        
+        <div style="display: grid; justify-content: center;">
+            <p style="display: block; text-align: center; font-weight: 700; width: 400px; height: 20px;">
+                <marquee behavior="alternate">
+                    Click <span style="margin: 0 10px"><i class="fa-solid fa-play"></i></span> button and enjoy the music :)
+                </marquee>
+            </p>
+            <audio style="margin-top: 10px;" controls>
+                <source src="music/nine.mp3" type="audio/mpeg" />
+            </audio>
+            <audio controls style="margin-top: 10px;">
+                <source src="music/dunes.mp3" type="audio/mpeg" />
+            </audio>
+            <audio controls style="margin-top: 10px;">
+                <source src="music/apollo-11.mp3" type="audio/mpeg" />
+            </audio>
+            <audio controls style="margin-top: 10px;">
+                <source src="music/eternity.mp3" type="audio/mpeg" />
+            </audio>
+        </div>
+    </div>
 </body>
 
 </html>
